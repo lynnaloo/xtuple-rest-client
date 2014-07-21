@@ -1,7 +1,8 @@
-xTuple REST Client for Node
-====
+## xTuple REST Client for Node
 
 xTuple REST client to work with [xTuple REST services.](http://github.com/xtuple/xtuple)
+
+## Usage:
 
 ### Create new OAuth2 Client
 
@@ -11,7 +12,7 @@ and create a reference for a new OAuth 2.0 Client. Be sure to select a "Client T
 of "Service Account" and ensure that "Delegated Access" is checked. This will generate a
 private key and give you all the other information that you wll need to connect to the xTuple REST API.
 
-### Installation 
+### Installation
 
 Clone this repository and run `npm install`
 
