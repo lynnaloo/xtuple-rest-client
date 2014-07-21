@@ -1,0 +1,20 @@
+{
+  "name": "xtuple-node-oauth-client",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {
+    "googleapis-plus": "0.8.x",
+    "underscore": "1.6.x",
+    "dotenv": "0.4.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/lynnaloo/xtuple-rest-client"
+  },
+  "author": "Linda Nichols",
+  "license": "BSD"
+}
