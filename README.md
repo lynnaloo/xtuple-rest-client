@@ -11,7 +11,7 @@ and create a reference for a new OAuth 2.0 Client. Be sure to select a "Client T
 of "Service Account" and ensure that "Delegated Access" is checked. This will generate a
 private key and give you all the other information that you wll need to connect to the xTuple REST API.
 
-### Test this OAuth2 API Client
+### Installation 
 
 Clone this repository and run `npm install`
 
@@ -23,6 +23,8 @@ Convert your key.p12 file to key.pem and copy it to the `keys` folder:
 
 `openssl pkcs12 -in keys/key.p12  -nocerts -nodes | openssl rsa -out keys/key.pem`
 
+This key and the folder are in the .gitignore and should never be committed to source control.
+
 Enter Import Password: 'notasecret'
 
 ### Setup Environment Variables
@@ -30,6 +32,7 @@ Enter Import Password: 'notasecret'
 `cp sample.env .env`
 
 Open the .env file and change the information to match what was provided by the xTuple OAuth 2.0 extension.
+This .env file should also never be committed to source control.
 
 ### Example Use
 
