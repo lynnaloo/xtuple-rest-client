@@ -1,6 +1,6 @@
 {
   "name": "xtuple-rest-client",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "dependencies": {
     "googleapis-plus": "0.8.x",
