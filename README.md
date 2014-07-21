@@ -30,3 +30,31 @@ Enter Import Password: 'notasecret'
 `cp sample.env .env`
 
 Open the .env file and change the information to match what was provided by the xTuple OAuth 2.0 extension.
+
+### Example Use
+
+```javascript
+var _ = require('underscore'),
+  Client = require('xtuple-rest-client');
+
+new Client(function (client) {
+  client.query({
+    type: 'ToDo',
+    method: 'list',
+    params: { maxResults: 50 },
+    callback: function (err, result) {
+      if (err) {
+        console.log('Error:', err);
+      }
+      if (result) {
+        console.log('To Dos:');
+        _.map(result.data.data, function (obj) {
+          console.log('Id:', obj.uuid);
+          console.log('Name:', obj.name);
+          console.log('Description:', obj.description);
+        });
+      }
+    }
+  });
+});
+```
