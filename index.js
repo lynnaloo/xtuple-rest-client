@@ -35,7 +35,8 @@ var restclient = module.exports = function (callback) {
     baseUrl + '/oauth/token',
     process.env.APPLICATION_HOST,
     '/' + database + '/oauth/token',
-    process.env.APPLICATION_PORT
+    process.env.APPLICATION_PORT,
+    'assertion'
   );
 
   // Don't specify a name because xTuple discovery url does not include it
