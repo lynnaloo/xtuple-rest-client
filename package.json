@@ -14,8 +14,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://www.github.com/lynnaloo/xtuple-rest-client"
+    "url": "https://www.github.com/xtuple/xtuple-nodejs-rest-client"
   },
   "author": "Linda Nichols",
-  "license": "BSD"
+  "license": "Apache"
 }
