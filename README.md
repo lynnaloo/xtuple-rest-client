@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## xTuple REST Client 
 
 Node.js client to work with the [xTuple REST API](https://github.com/xtuple/xtuple/wiki/xTuple's-REST-API). For more information about [xTuple](http://www.xtuple.com)'s web application, look at the [source code](https://github.com/xtuple/xtuple/wiki/xTuple's-REST-API). 
@@ -62,3 +63,9 @@ new Client(function (client) {
   });
 });
 ```
+=======
+xtuple-nodejs-rest-client
+=========================
+
+xTuple ERP Node.js REST API Client Library using the Google APIs Client Library for Node.js
+>>>>>>> XTUPLE/master
