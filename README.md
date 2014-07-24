@@ -63,3 +63,9 @@ new Client(function (client) {
   });
 });
 ```
+
+## License
+
+[Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
+
+Copyright (c) 2012-2013 xTuple [http://www.xtuple.com/](http://www.xtuple.com/)
