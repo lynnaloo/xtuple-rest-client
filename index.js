@@ -5,7 +5,8 @@ var fs = require('fs'),
   host,
   baseUrl,
   database,
-  api;
+  api,
+  token;
 
 // load environment variables
 dotenv.load();
@@ -28,7 +29,7 @@ var restclient = module.exports = function (callback) {
     //email, keyFile, key, scopes, person, audience, host, path, port, grant
     process.env.CLIENTID,
     process.env.PRIVATE_KEY_PATH,
-    fs.readFileSync(process.env.PRIVATE_KEY_PATH, 'utf8'),
+    process.env.PRIVATE_KEY,
     // make sure this is an array
     [baseUrl + '/auth/' + database],
     process.env.USERNAME,
@@ -56,6 +57,7 @@ var restclient = module.exports = function (callback) {
         console.log('Problem during the authorization:', err);
         return;
       }
+      restclient.token = result.access_token;
       callback(restclient);
     });
   });

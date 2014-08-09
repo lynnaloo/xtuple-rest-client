@@ -1,7 +1,7 @@
 
 ## xTuple ERP Node.js REST API Client Library
 
-xTuple ERP Node.js [REST API](https://github.com/xtuple/xtuple/wiki/xTuple's-REST-API) Client Library using the Google APIs Client Library for Node.js. For more information about [xTuple](http://www.xtuple.com)'s web application, look at the [source code](https://github.com/xtuple/xtuple/wiki/xTuple's-REST-API). 
+xTuple ERP Node.js [REST API](https://github.com/xtuple/xtuple/wiki/xTuple's-REST-API) Client Library using the Google APIs Client Library for Node.js. For more information about [xTuple](http://www.xtuple.com)'s web application, look at the [source code](https://github.com/xtuple/xtuple/wiki/xTuple's-REST-API).
 
 ## Usage:
 
@@ -63,3 +63,9 @@ new Client(function (client) {
   });
 });
 ```
+
+## License
+
+[Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
+
+Copyright (c) 2012-2013 xTuple [http://www.xtuple.com/](http://www.xtuple.com/)
