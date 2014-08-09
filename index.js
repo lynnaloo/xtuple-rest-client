@@ -5,8 +5,7 @@ var fs = require('fs'),
   host,
   baseUrl,
   database,
-  api,
-  token;
+  api;
 
 // load environment variables
 dotenv.load();
