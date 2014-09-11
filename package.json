@@ -1,6 +1,6 @@
 {
   "name": "xtuple-rest-client",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Client for xTuple's REST Api",
   "keywords": "rest, xtuple, oauth2, jwt, auth, googleapi",
   "engines": {
