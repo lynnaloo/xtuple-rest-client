@@ -56,7 +56,7 @@ var restclient = module.exports = function (callback) {
         console.log('Problem during the authorization:', err);
         return;
       }
-      restclient.token = result ? null : result.access_token;
+      restclient.token = result ? result.access_token : null;
       callback(restclient);
     });
   });
